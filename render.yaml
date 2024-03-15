@@ -1,5 +1,6 @@
 services : 
  - type: web
+   plan: free
    name: nodejs
    runtime: node
    buildCommand: npm build
@@ -23,3 +24,4 @@ services :
         property: password
 databases:
  - name: db
+   plan: free
