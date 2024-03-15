@@ -3,7 +3,7 @@ services :
    plan: free
    name: nodejs
    runtime: node
-   buildCommand: nmp install && npm run build
+   buildCommand: npm install && npm run build
    startCommand: node app.js
    envVars:
     - key: DB_NAME
