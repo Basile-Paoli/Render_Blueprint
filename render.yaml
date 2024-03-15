@@ -3,7 +3,7 @@ services :
    plan: free
    name: nodejs
    runtime: node
-   buildCommand: npm build
+   buildCommand: npm run build
    startCommand: npm start
    envVars:
     - key: DB_NAME
